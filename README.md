@@ -3,7 +3,7 @@ Glucocorticoid response signature in human airway cells (discovery + reproducibi
 
 Aim: Derive a robust transcriptomic signature of dexamethasone response using the airway dataset and produce a reproducible pipeline + report.
 
-Tech: Snakemake + Conda (micromamba), R (DESeq2, apeglm, fgsea), GitHub Actions CI.
+Tech: Snakemake + Conda (micromamba), R (DESeq2, apeglm, fgsea).
 
 Outputs: DE tables, figures (PCA/heatmap/MA/volcano), Hallmark GSEA, HTML report.
 
