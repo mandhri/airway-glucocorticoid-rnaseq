@@ -1,0 +1,14 @@
+.snakemake/
+*.conda
+*.lock
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+bin/
+data/**
+!data/
+!data/raw/
+!data/raw/airway_counts.tsv
+!data/raw/airway_coldata.tsv

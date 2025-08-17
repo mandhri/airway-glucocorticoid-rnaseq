@@ -1,0 +1,12 @@
+name: rna
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base>=4.3.*
+  - r-optparse
+  - r-readr
+  - r-tibble
+  - bioconductor-airway
+  - bioconductor-summarizedexperiment

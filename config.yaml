@@ -1,0 +1,6 @@
+alpha: 0.05
+lfc_threshold: 1.0
+top_var_genes: 500
+species: "Homo sapiens"
+gsea_category: "H"
+
