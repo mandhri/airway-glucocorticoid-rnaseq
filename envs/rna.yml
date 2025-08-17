@@ -10,3 +10,8 @@ dependencies:
   - r-tibble
   - bioconductor-airway
   - bioconductor-summarizedexperiment
+  - bioconductor-deseq2
+  - bioconductor-apeglm          
+  - bioconductor-annotationdbi    
+  - bioconductor-org.hs.eg.db     
+  - r-matrix

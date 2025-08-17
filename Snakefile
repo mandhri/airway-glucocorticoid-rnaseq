@@ -1,22 +1,14 @@
 #Snakemake
 
-configfile: "config.yaml"
+#configfile: "config.yaml"
+
+include: "rules/00_export.smk"
+include: "rules/01_make_dds.smk"
 
 rule all:
     input:
-        "data/raw/airway_counts.tsv",
-        "data/raw/airway_coldata.tsv"
+        "results/deseq2/dds_raw.rds"
 
-rule export_airway:
-    output:
-        counts  = "data/raw/airway_counts.tsv",
-        coldata = "data/raw/airway_coldata.tsv"
-    conda: "envs/rna.yml"
-    shell:
-        "mkdir -p $(dirname {output.counts}) && "
-        "export R_LIBS_USER= R_LIBS= R_PROFILE_USER= R_ENVIRON_USER=; "
-        "Rscript --vanilla scripts/export_airway.R "
-        "--counts {output.counts} --coldata {output.coldata}"
 
 
 
