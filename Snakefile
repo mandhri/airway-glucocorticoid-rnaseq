@@ -6,6 +6,7 @@ include: "rules/00_export.smk"
 include: "rules/01_make_dds.smk"
 include: "rules/02_deseq.smk"
 include: "rules/03_qc.smk"
+include: "rules/04_gsea.smk"
 
 rule all:
     input:
@@ -16,7 +17,9 @@ rule all:
         "figures/pca.pdf",
         "figures/sample_distance_heatmap.pdf",
         "figures/MA.pdf",
-        "figures/volcano.pdf"
+        "figures/volcano.pdf",
+        "results/gsea/hallmark_gsea.csv",
+        "figures/gsea_top20.pdf"
 
 
 
