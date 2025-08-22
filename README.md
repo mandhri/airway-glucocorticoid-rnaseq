@@ -73,7 +73,7 @@ dependencies:
 
 ## Project Structure
 
-
+```
 .
 ├── Snakefile               # Main workflow orchestrator
 ├── config.yaml             # User-configurable parameters
@@ -92,7 +92,7 @@ dependencies:
 └── results/                # Generated outputs
     ├── deseq2/
     └── gsea/
-
+```
 
 ## Usage
 
