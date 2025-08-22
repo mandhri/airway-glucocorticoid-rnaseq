@@ -173,7 +173,7 @@ Gene Set Enrichment (rules/03_gsea.smk)
 | `data/raw/airway_coldata.tsv` | Sample metadata |
 | `results/deseq2/dds_raw.rds` | Initial DESeq2 object |
 | `results/gsea/hallmark_gsea.csv` | GSEA results for 50 Hallmark gene sets |
-| `figures/gsea_top20.pdf` | Top 20 enriched pathways visualization |
+| `figures/gsea_top20.pdf` | Top 20 enriched pathways visualisation |
 
 
 
